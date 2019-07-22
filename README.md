@@ -3,6 +3,8 @@ Projects from the first 2 weeks at Coding Dojo.
 
 Technologies covered:
 
+Week 1: 
+
 HTML
 
 CSS
@@ -10,6 +12,9 @@ CSS
 Bootstrap
 
 Javascript
+
+
+Week 2:
 
 JQuery
 
