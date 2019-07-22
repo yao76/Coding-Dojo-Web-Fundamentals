@@ -1,0 +1,57 @@
+Git Commands
+
+git init - initialize the repository.
+
+git add . - add all the files that were changed since the last back up to the staging area.
+
+git status - shows you all the files that were changed since the last backup and which ones are already added to the staging area.
+
+git commit -m "..." - commits the changes to the repository.
+
+git checkout ____ - switches to the branch name provided in your git repository. This will create a new branch if the name provided doesn't exist.
+git branch - shows all of your git branches and marks the one you are currently on.
+
+git log - shows all the backups created in the repository.
+
+git blame ____ - shows who wrote which line of code or in other words who is to be blamed for that particular line of code.
+
+git remote add origin ____ - tells git to add a remote place called 'origin' to a remote URL ___.
+
+git push - pushes the changes in your local repository to the remote repository.
+
+git pull - pulls the changes in a remote repository to your own local repository.
+
+git clone ___ - clones a remote repository in ___ to your own l
+
+git revert -n HEAD 
+
+git reset <commit hash> --hard
+
+git reset <commit hash> <filename> --hard to reset changes to a particular file
+
+.gitignore example:
+# ignores any file named "secret.txt"
+secret.txt
+# ignores any directory named "secrets"
+secrets/
+# ignores a file named "hidden.txt" located at the root of your working directory
+/hidden.txt
+# ignores a directory called "node_modules" located at the root of your working directory
+/node_modules/
+# ignores any file with a .png extension
+*.png
+# ignores any file or directory that begins in "cache", such as cache-file-01, cached_assets/, etc.
+cache*
+# ignores any file or directory that ends in "data", such as project_data/, big_file_of_data
+*data
+
+Create branches off from develop for fixes or features, and then push to the develop branch (Step 3).
+
+git checkout -b BRANCHNAME
+copy
+Move to different branches:
+
+git checkout BRANCHNAME
+Check your current branch:
+
+git branch

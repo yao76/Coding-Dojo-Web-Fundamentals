@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $(document).ready(function () {
+            $('img').click(function () {
+                if($(this).attr('src')== 'ninja0.png') {
+                    $(this).attr('src','cat0.png');
+                }
+                else if($(this).attr('src')== 'ninja1.png') {
+                    $(this).attr('src','cat1.png');
+                }
+                else if($(this).attr('src')== 'ninja2.png') {
+                    $(this).attr('src','cat2.png');
+                }
+                else if($(this).attr('src')== 'ninja3.png') {
+                    $(this).attr('src','cat3.png');
+                }
+                else if($(this).attr('src')== 'ninja4.png') {
+                    $(this).attr('src','cat4.png');
+                }
+                else if($(this).attr('src')== 'cat0.png') {
+                    $(this).attr('src','ninja0.png');
+                }
+                else if($(this).attr('src')== 'cat1.png') {
+                    $(this).attr('src','ninja1.png');
+                }
+                else if($(this).attr('src')== 'cat2.png') {
+                    $(this).attr('src','ninja2.png');
+                }
+                else if($(this).attr('src')== 'cat3.png') {
+                    $(this).attr('src','ninja3.png');
+                }
+                else if($(this).attr('src')== 'cat4.png') {
+                    $(this).attr('src','ninja4.png');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <img src='ninja0.png'>
+        <img src='ninja1.png'>
+        <img src='ninja2.png'>
+        <img src='ninja3.png'>
+        <img src='ninja4.png'>
+        
+    </div>
+</body>
+
+</html>

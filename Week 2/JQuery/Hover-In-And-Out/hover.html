@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $(document).ready(function () {
+            $("#image1").hover(function () {
+                $(this).attr('src', 'ninja2.jpg');
+            }, function() {
+                $(this).attr('src', 'ninja.png');
+            });
+            $("#image2").hover(function () {
+                $(this).attr('src', 'ninja.png');
+            }, function() {
+                $(this).attr('src', 'ninja2.jpg');
+            });
+            $("#image3").hover(function () {
+                $(this).attr('src', 'ninja2.jpg');
+            }, function() {
+                $(this).attr('src', 'ninja.png');
+            });
+            $("#image4").hover(function () {
+                $(this).attr('src', 'ninja.png');
+            }, function() {
+                $(this).attr('src', 'ninja2.jpg');
+            });
+            $("#image5").hover(function () {
+                $(this).attr('src', 'ninja2.jpg');
+            }, function() {
+                $(this).attr('src', 'ninja.png');
+            });
+            $("#image6").hover(function () {
+                $(this).attr('src', 'ninja.png');
+            }, function() {
+                $(this).attr('src', 'ninja2.jpg');
+            });
+            $("#image7").hover(function () {
+                $(this).attr('src', 'ninja2.jpg');
+            }, function() {
+                $(this).attr('src', 'ninja.png');
+            });
+            $("#image8").hover(function () {
+                $(this).attr('src', 'ninja.png');
+            }, function() {
+                $(this).attr('src', 'ninja2.jpg');
+            });
+            
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hover In/Out</h1>
+        <div class="images">
+            <img src="ninja.png" alt="ninja" id="image1">
+            <img src="ninja2.jpg" alt="ninja" id="image2">
+            <img src="ninja.png" alt="ninja" id="image3">
+            <img src="ninja2.jpg" alt="ninja" id="image4">
+            <img src="ninja.png" alt="ninja" id="image5">
+            <img src="ninja2.jpg" alt="ninja" id="image6">
+            <img src="ninja.png" alt="ninja" id="image7">
+            <img src="ninja2.jpg" alt="ninja" id="image8">
+        </div>
+
+    </div>
+</body>
+
+</html>

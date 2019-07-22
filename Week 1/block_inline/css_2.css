@@ -1,0 +1,31 @@
+p{
+	background-color: grey;
+	display: inline;
+}
+a{
+	background-color: yellow;
+	display: block;
+}
+ul{
+	background-color: blue;
+	display: inline;
+}
+ul li{
+	background-color: green;
+	display: inline;
+	display: 
+}
+
+a {
+	margincopy: 10px;
+	background: #eee;
+	color: black;
+	padding: 10px;
+  }
+
+  #nav-menu{
+	list-style-type: none; /*This gets rid of the bullets.*/
+  }
+  #nav-menu li {
+	display: inline;
+  }

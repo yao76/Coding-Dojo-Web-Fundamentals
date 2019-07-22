@@ -1,0 +1,9 @@
+1. Went to git_demo repo and forked it
+2. Cloned the repo to my local machine
+3. Made changes to my local copy
+4. Checked git status
+5. Staged the files to be added
+6. Checked git status again
+7. Commited changes with a message
+8. Checked git log
+9. Pushed changes and checked github repo to verify changes were pushed.

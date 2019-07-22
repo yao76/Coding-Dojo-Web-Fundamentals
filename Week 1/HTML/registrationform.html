@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1>My Registration Form</h1>
+    <form>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <p>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <label for="pw_confirm">PW Confirmation:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+
+        <p>
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday">
+            <i class="fa fa-calendar" style="font-size:24px">&#xf13;</i>
+        </p>
+        <p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <label for="decline">Other</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+        </p>
+
+        <p>A short discription about yourself:</p>
+        <textarea name="description" rows="5" cols="50"></textarea>>
+        <br>
+        <br>
+        <div class="dropdown">
+            <label>Favorite Language</label>
+            <select id="dropdown">
+                <option value="javascript">JavaScript</option>
+                <option value="cplusplus">C++</option>
+                <option value="csharp">C#</option>
+                <option value="java">Java</option>
+            </select>
+        </div>
+
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

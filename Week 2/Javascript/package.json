@@ -1,0 +1,24 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "basicfoundation1.js",
+  "dependencies": {
+    "jasmine": "^3.4.0",
+    "jasmine-node": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yao76/Coding-Dojo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yao76/Coding-Dojo/issues"
+  },
+  "homepage": "https://github.com/yao76/Coding-Dojo#readme"
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dojo Arena</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#beach").hover(function () {
+                $(".container").css("background-image", "url('beach.jpg')");
+            }, function () {
+                console.log("off");
+                $(".container").css("background-image", "none");
+                $(".container").css("background-color", "black");
+            })
+            $("#earth").hover(function () {
+                $(".container").css("background-image", "url('earth.jpg')");
+            }, function () {
+                console.log("off");
+                $(".container").css("background-image", "none");
+                $(".container").css("background-color", "black");
+            })
+            $("#dojo").hover(function () {
+                $(".container").css("background-image", "url('dojo.jpg')");
+            }, function () {
+                console.log("off");
+                $(".container").css("background-image", "none");
+                $(".container").css("background-color", "black");
+            })
+            $("#forest").hover(function () {
+                $(".container").css("background-image", "url('forest.jpg')");
+            }, function () {
+                console.log("off");
+                $(".container").css("background-image", "none");
+                $(".container").css("background-color", "black");
+            })
+            $("#matrix").hover(function () {
+                $(".container").css("background-image", "url('matrix.jpg')");
+            }, function () {
+                console.log("off");
+                $(".container").css("background-image", "none");
+                $(".container").css("background-color", "black");
+            })
+            $("#snow").hover(function () {
+                $(".container").css("background-image", "url('snow.jpg')");
+            }, function () {
+                console.log("off");
+                $(".container").css("background-image", "none");
+                $(".container").css("background-color", "black");
+            });
+
+            $(".all-btn").click(function () {
+                //$("#menu").html('<h2>Select Players</h2><div class="dropdown1"><select><option value="">Select Ninja</option><option value="select">Character 1</option><option value="char2">Character 2</option><option value="char3">Character 3</option><option value="char4">Character 4</option><option value="char5">Character 4</option></select></div><div class="dropdown2"><select><option value="select">Select Ninja</option><option value="char2">Character 1</option><option value="char3">Character 2</option><option value="char4">Character 3</option><option value="char5">Character 4</option></select></div>');
+
+                $(".menu").html('<h2>Select Players</h2><div class="dropdown1"><select id ="select1"><option value="">Select Ninja</option><option value="select">Character 1</option><option value="char2">Character 2</option><option value="char3">Character 3</option><option value="char4">Character 4</option></select></div><div class="dropdown2"><select><option value="select">Select Ninja</option><option value="char2">Character 1</option><option value="char3">Character 2</option><option value="char4">Character 3</option><option value="char5">Character 4</option></select></div>');
+
+            });
+
+        });
+
+
+        $(document).on("click", "$('#select1').val()", function () {
+            $(".container").append("<img src = 'donny.png'>")
+        });
+    </script>
+
+    <style>
+        .container {
+            background-color: black;
+            height: 600px;
+            width: 1000px;
+            border: 4px solid gray;
+            background-repeat: no-repeat;
+            background-position: center; 
+            background-size: cover;
+            
+        }
+
+        .menu {
+            background-color: lightgray;
+            border: 2px solid gray;
+            border-radius: 5px;
+            width: 300px;
+            height: 150px;
+            margin: 100px 375px;
+            text-align: center;
+            padding-bottom: 15px;
+
+        }
+
+        h2 {
+            color: gold;
+            text-shadow: 1px 1px white;
+        }
+
+        button {
+            margin: 1px;
+            height: 40px;
+            width: 80px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .dropdown1  {
+            display: inline-block;
+            margin: 2px;
+        }
+        .dropdown2  {
+            display: inline-block;
+        }
+
+        .
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <h2>Select Arena</h2>
+            <div class="all-btn">
+                <button id="beach">beach</button>
+                <button id="earth">earth</button>
+                <button id="dojo">dojo</button>
+                <button id="forest">forest</button>
+                <button id="matrix">matrix</button>
+                <button id="snow">snow</button>
+
+
+
+
+             
+
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

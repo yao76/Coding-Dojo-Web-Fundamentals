@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#click-btn").click(console.log("Clicked!"));
+
+            $('#hide-btn').click(function(){
+                $('#hide-text').hide();
+            });
+
+            $('#show-btn').click(function(){
+                $('#hide-text').show();
+            });
+
+            $('#toggle-btn').click(function(){
+                $('#toggle-text').toggle();
+            });
+
+            $('#slidedown-btn').click(function(){
+                $('#slidedown-text').slideDown();
+            });
+
+            $('#slideup-btn').click(function(){
+                $('#slidedown-text').slideUp();
+            });
+
+            $('#slidetoggle-btn').click(function(){
+                $('#slidetoggle-text').slideToggle();
+            });
+
+            $('#fadein-btn').click(function(){
+                $('#fade-text').fadeIn();
+            });
+
+            $('#fadeout-btn').click(function(){
+                $('#fade-text').fadeOut();
+            });
+
+            $('#class-btn').click(function(){
+                $('#class-text').addClass("changed-class");
+            });
+
+            $('#before-btn').click(function(){
+                $('#before-text').before("<p>This is before the following content.</p>");
+            });
+
+            $('#after-btn').click(function(){
+                $('#after-text').after("<p>This goes after the following content.</p>");
+            });
+
+            $('#append-btn').click(function(){
+                $('#append-text').append("See? Almost the same.");
+            });
+
+            $('#html-btn').click(function(){
+                $('#html-text').html("The html content has been changed.");
+            });
+
+            $('#attr-btn').click(function(){
+                $('#attr-text').attr('style', "color:red");
+            });
+
+            $('#val-btn').click(function(){
+                $('input:text').val("The input box has text now!");
+            });
+
+            $('#text-btn').click(function(){
+                $('#text-text').text("Text can also be changed this way");
+            });
+
+        });
+    </script>
+
+    <style>
+        .changed-class {
+            color: blue;
+            background-color: lightslategray;
+        }
+    </style>
+
+    <title>JQuery Fundamentals</title>
+</head>
+
+<body>
+    <div class="segment">
+        <button id="click-btn">Click This!</button>
+    </div>
+
+    <div class="segment">
+        <button id="hide-btn">Hide Text</button>
+        <p id="hide-text">This is text!</p>
+    </div>
+
+    <div class="segment">
+        <button id="show-btn">Show Text</button>
+    </div>
+
+    <div class="segment">
+        <button id="toggle-btn">Toggle Text</button>
+        <p id="toggle-text">You can even toggle text!</p>
+    </div>
+
+    <div class="segment">
+        <button id="slideup-btn">Slide Up</button>
+        <button id="slidedown-btn">Slide Down</button>
+        <p id="slidedown-text">Or make it slide into and out of the page!</p>
+    </div>
+
+    <div class="segment">
+        <button id="slidetoggle-btn">Slide Text!</button>
+        <p id="slidetoggle-text">That can be done with a toggle too!</p>
+    </div>
+
+    <div class="segment">
+        <button id="fadeout-btn">Fade Out</button>
+        <button id="fadein-btn">Fade In</button>
+        <p id="fade-text">Or make it fade in and out!</p>
+    </div>
+
+    <div class="segment">
+        <button id="class-btn">Add Some Class!</button>
+        <p id="class-text">Now it's classy.</p>
+    </div>
+
+    <div class="segment">
+        <button id="before-btn">Click it!</button>
+        <p id="before-text">There should be some text before this line. Click the button!</p>
+    </div>
+
+    <div class="segment">
+        <button id="after-btn">Click it!</button>
+        <p id="after-text">There should be some text after this line too. Click the button!</p>
+    </div>
+
+    <div class="segment">
+        <button id="append-btn">Append it!</button>
+        <p id="append-text">And this "append" function seems to just be "after" without the paragraph break. Try it!</p>
+    </div>
+
+    <div class="segment">
+        <button id="html-btn">Change the html content!</button>
+        <p id="html-text">The .html tag will trigger any content in a given html tag to the argument passed into it.</p>
+    </div>
+
+    <div class="segment">
+        <button id="attr-btn">Click to change the text color</button>
+        <p id="attr-text">This will become red!</p>
+    </div>
+
+    <div class="segment">
+        <button id="val-btn">Fill Input Box</button>        
+        <p id="val-text">Input Box:<input type="text" name="input-val"></p>
+    </div>
+
+    <div class="segment">
+        <button id="text-btn">Change Text</button>        
+        <p id="text-text">Here is some more text we can change.</p>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

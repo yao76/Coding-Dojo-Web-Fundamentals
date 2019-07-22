@@ -1,0 +1,86 @@
+/*CSS reset settings here*/
+*{
+        margin: 0px;
+        padding: 0px;
+        border-style: solid;
+    }
+    #wrapper{
+        width: 950px;
+        background-color: silver;
+        margin: 0px auto;
+        padding: 20px;
+
+    }
+    #header{
+        max-height: 235px;
+        width: 942px;
+        background-color: green;
+        display: block;
+        
+    }
+    #navigation{
+        min-height: 200px;
+        width: 942px;
+        background-color: blue;
+        vertical-align: top;
+        margin-bottom: 5px;
+        
+    }
+    .main_content{
+        min-height: 200px;
+        width: 455px;
+        background-color: red;
+        display: inline-block;
+        margin-bottom: 20px;
+        
+    }
+    .main_content1{
+        margin-right: 20px;
+        min-height: 200px;
+        width: 455px;
+        background-color: red;
+        display: inline-block;
+        margin-bottom: 20px;
+        
+    }
+    .subcontents{
+        min-height: 200px;
+        width: 275px;
+        background-color: yellow;
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 47px;
+        margin-bottom: 20px;
+    }
+    .subcontents1{
+        min-height: 200px;
+        width: 275px;
+        background-color: yellow;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 47px;
+    }
+    .subcontents2{
+        min-height: 200px;
+        width: 275px;
+        background-color: yellow;
+        display: inline-block;
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .advertisement{
+        min-height: 200px;
+        width: 200px;
+        background-color: purple;
+        display: inline-block; 
+        margin: 20px 200px 20px 20px;
+    }
+    .advertisement1{
+        min-height: 200px;
+        width: 200px;
+        background-color: purple;
+        display: inline-block; 
+        margin: 0px 20px 20px 285px;
+    }

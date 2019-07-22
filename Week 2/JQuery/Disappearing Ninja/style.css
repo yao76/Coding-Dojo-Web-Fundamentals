@@ -1,0 +1,19 @@
+* {
+    /* outline: 1px dotted red; */
+    width: 1100px;
+}
+
+.images img{
+    width:250px;
+    height: 250px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+button {
+    width: 200px;
+    background-color: green;
+    box-shadow: 10px 10px 0px 0px rgba(17,17,17,1);
+    border: 1px;
+}

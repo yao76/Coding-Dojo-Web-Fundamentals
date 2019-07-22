@@ -1,0 +1,170 @@
+/* * { outline: 1px dotted red; } */
+.container{
+    width: 970px;
+    min-height: 800px;
+    margin: 0px auto;
+    background-image: radial-gradient(silver, #7d4845);
+    
+    
+}
+
+div.header h1 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div.header h2 {
+    display: inline-block;
+    padding-left:400px;
+}
+
+.header {
+    background-color: #f2f2f2;
+}
+    
+
+.about {
+    display: inline-block;
+    min-height: 230px;
+    width: 520px;
+    background-color: #f2f2f2;
+    margin: 20px;
+    vertical-align: top;
+}
+
+div.container div.about p,a{
+    margin: 10px;
+    color: black;
+}
+
+.lower{
+    min-height: 400px;
+    margin-left: 10px;
+}
+
+.message1{
+    min-height: 400px;
+    background-color: green;
+    display: inline-block;
+    width: 270px;
+    background-color: #f2f2f2;
+    margin: 20px;
+    vertical-align: top;
+    
+}
+
+div.container div.lower p{
+    padding:10px;
+}
+
+.message2{
+    min-height: 400px;
+    background-color: green;
+    display: inline-block;
+    width: 270px;
+    background-color:#f2f2f2;
+   
+    margin: 20px;
+    vertical-align: top;
+    
+}
+
+.message3{
+    min-height: 400px;
+    background-color: green;
+    display: inline-block;
+    width: 270px;
+    background-color: #f2f2f2;
+ 
+    margin: 20px;
+    vertical-align: top;
+    
+}
+
+.messageheader{
+    background-image: radial-gradient(silver,gray);
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+.middlegradient{
+    background-image: radial-gradient(silver,gray);
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+div.container div.lower button {
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-color: black;
+
+}
+
+.bottom {
+    background-color: #f2f2f2;
+    min-height: 200px;
+    padding: 2px;
+}
+
+div.container div.bottom p{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+div.container div.bottom img{
+    width:15px; 
+}
+div.container div.upper img {
+    width:350px;
+    min-height: auto;
+    margin: 20px;
+    border-width: 2px;
+    padding: 0px;
+    border:6px solid silver;
+
+}
+
+div.container div.lower div.message1 img {
+    width: 250px;
+    height:auto;
+    padding: 8px;
+
+}
+
+div.container div.lower div.message2 img {
+    width: 250px;
+    height:auto;
+    padding: 8px;
+}
+
+div.container div.lower div.message3 img {
+    width: 250px;
+    height:auto;
+    padding: 8px;
+}
+
+div.container div.upper h4 {
+
+    background-image: radial-gradient(silver,gray);
+    margin: 0px;
+    min-height: 25px;
+    padding: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+div.container div.lower div.technologies img{
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}

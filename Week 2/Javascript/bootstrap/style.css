@@ -1,0 +1,17 @@
+.dropdown {
+    display: inline-block;
+}
+
+.btn btn-danger {
+    display: inline-block;
+}
+
+.card {
+    display: inline-block;
+    border: none;
+    width: 32%;
+}
+.container-fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+}

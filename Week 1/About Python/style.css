@@ -1,0 +1,184 @@
+* {
+    /* outline: 1px dotted red;  */
+    font-family: "sans-serif";
+}
+
+.container {
+    width: 970px;
+    min-height: 800px;
+    margin: 0px auto;
+}
+
+div.container div.top {
+    background-color: rgb(38, 81, 117);
+}
+
+div.container div.topright {
+    display: inline-block;
+}
+
+
+div.container div.top div.search {
+    overflow: hidden;
+    background-color: rgb(68, 68, 68);
+    padding: 5px 30px;
+    /* add border*/
+    border: 6px solid rgb(68, 68, 68);
+    border-radius: 25px;
+    margin-left: 65px;
+    font-size: 17px;
+    margin-bottom: 60px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+div.container div.search input[type=text] {
+    /* center search box text */
+    text-align: center;
+    padding: 5px;
+    color: rgb(169, 169, 169);
+}
+
+div.container div.search button {
+    display: inline-block;
+    width: 35px;
+    background-color: rgb(38, 81, 117);
+    color: white;
+    font-size: 17px;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid silver;
+    border-left: 2px solid silver;
+}
+
+div.container div.top p {
+    
+    vertical-align: top;
+    color: black;
+    text-align: center;
+    margin-left:100px;
+    margin-bottom: 0px;
+}
+
+div.container div.top div.topright a {
+    color: yellow;
+}
+
+
+div.top div.topnav {
+    overflow: hidden;
+    display: inline-block;
+    background-color: rgb(72, 126, 171);
+    padding: 10px;
+    margin-left: 120px;
+    border: 2px solid rgb(72, 126, 171);
+    border-radius: 5px;
+    box-shadow: 3px 3px #05050546;
+}
+
+div.top div.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+div.container div.top .navmenu {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+}
+
+div.container div.navmenu ul {
+    list-style: none;
+    margin-left: 60px;
+    display: inline-block;
+    list-style-position: inside;
+}
+div.container div.navmenu ul li{
+    padding: 8px;
+}
+div.container div.navmenu ul a{
+    color:white;
+}
+
+
+div.container div.navmenu li:before {
+    content: "»"; 
+    padding-right: 5px;
+    color: yellow;
+    font-size: 10px;
+}
+
+div.top div.text {
+    display: inline-block;
+    width: 670px;
+    margin-left: 0px;
+    vertical-align: top;
+}
+
+div.top div.text p{
+    color:white;
+}
+div.top div.text h3{
+    color: rgb(255, 211, 67);
+    text-align: center;
+    font-style: italic;
+}
+div.top div.text h4{
+    color: white;
+    text-align: center;
+}
+
+div.container div.middle .leftmiddle{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    margin-left: 80px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+div.container div.middle .rightmiddle{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+div.container div.middle ul{
+    list-style: none;
+    width: 250px;
+}
+
+div.container div.middle li {
+    list-style-type: square;
+    padding-right: 5px;
+}
+
+
+div.container div.middle hr {
+    width: 400px;
+    height:1px;
+    background-color: rgb(117, 168, 211);
+}
+div.container div.bottom {
+    margin-top: 50px;
+    background-image: radial-gradient(rgb(47, 101, 145),rgb(38, 81, 117));
+    color: rgb(120, 170, 213);
+
+}
+div.container div.bottom h3{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+div.container div.bottom h6{
+    text-align: center;
+    padding: 5px;
+}
